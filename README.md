@@ -1,4 +1,4 @@
-## @talves/microbundle-example
+## @talves/microbundle-hello
 
 Simplest example of a microbundle bundled library.
 
