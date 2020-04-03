@@ -1,0 +1,22 @@
+{
+  "name": "@talves/microbundle-hello",
+  "description": "Gatsby theme presets",
+  "version": "0.0.1",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "author": "Tony Alves <tony@3alves.com> (https://www.3alves.com/)",
+  "scripts": {
+    "build": "microbundle",
+    "watch": "microbundle --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "microbundle": "^0.12.0-next.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
